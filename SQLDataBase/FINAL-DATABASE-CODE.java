@@ -224,6 +224,45 @@ private void nextActionPerformed(java.awt.event.ActionEvent evt) {
                 }
     }              
 	
+
+	
+//..............................................................TO SHOW ONLY SELECTED FIELD..............................................................	
+
+
+
+//..............................................................PERFORMED ON INSERT RADIO BUTTON.................................................
+
+  private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                              
+       if(jRadioButton1.isSelected())
+       {
+           id.setEnabled(true);
+           name.setEnabled(true);
+           
+       }
+    }                                             
+
+
+//..............................................................PERFORMED ON UPDATE RADIO BUTTON...........................................
+
+
+    private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                              
+        if(jRadioButton2.isSelected())
+       {
+           id.setEnabled(true); 
+           name.setEnabled(false);
+       }
+    } 
+
+
+//..............................................................PERFORMED ON DELETE RADIO BUTTON........................................                                            
+
+    private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                              
+        if(jRadioButton3.isSelected())
+       {
+           id.setEnabled(true); 
+           name.setEnabled(true);
+       }
+    }                      
 	
 	
 	
