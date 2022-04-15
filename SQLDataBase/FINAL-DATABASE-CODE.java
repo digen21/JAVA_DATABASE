@@ -24,7 +24,7 @@ public class entry extends javax.swing.JFrame {
            
     public entry() {
         initComponents();
-        connect();     							 //the nem of the method "connect() created below" ... This is mandetory to intialize the components of the same method...
+        connect();     		//the name of the method "connect() created below" ... This is mandetory to intialize the components of the same method...
     }
     Connection c;
     PreparedStatement pat;
@@ -232,6 +232,8 @@ private void nextActionPerformed(java.awt.event.ActionEvent evt) {
 
 //..............................................................PERFORMED ON INSERT RADIO BUTTON.................................................
 
+	
+	
   private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                              
        if(jRadioButton1.isSelected())
        {
@@ -245,6 +247,7 @@ private void nextActionPerformed(java.awt.event.ActionEvent evt) {
 //..............................................................PERFORMED ON UPDATE RADIO BUTTON...........................................
 
 
+	
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                              
         if(jRadioButton2.isSelected())
        {
@@ -253,8 +256,10 @@ private void nextActionPerformed(java.awt.event.ActionEvent evt) {
        }
     } 
 
+	
 
-//..............................................................PERFORMED ON DELETE RADIO BUTTON........................................                                            
+//..............................................................PERFORMED ON DELETE RADIO BUTTON........................................  
+	
 
     private void jRadioButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                              
         if(jRadioButton3.isSelected())
@@ -265,5 +270,5 @@ private void nextActionPerformed(java.awt.event.ActionEvent evt) {
     }                      
 	
 	
-	
-	//NOTE: ALL THE ABOVE METHOD CREATED ON PARTICLUAR BUTTON. IN OUR CASE THERE IS ("INSERT"--"UPDATE"--"DELETE"--"NEXT"--"PREVIOUS"--"FIRST"--"LAST")
+
+//NOTE: ALL THE ABOVE METHOD CREATED ON PARTICLUAR BUTTON. IN OUR CASE THERE IS ("INSERT"--"UPDATE"--"DELETE"--"NEXT"--"PREVIOUS"--"FIRST"--"LAST")
